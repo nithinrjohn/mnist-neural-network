@@ -1,0 +1,19 @@
+# Ignore Python cache
+__pycache__/
+
+# Ignore Virtual environment
+.venv/
+
+# Ignore dataset contents
+dataset/*
+
+# Keep dataset folders
+!dataset/.gitkeep
+
+# Ignore models contents
+models/*
+
+# Keep models folders
+!models/.gitkeep
+
+.DS_Store
