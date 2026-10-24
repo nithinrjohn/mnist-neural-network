@@ -1,10 +1,10 @@
-# MNIST Neural Network
+# mnist-neural-network
 
 A feedforward neural network implemented in Python using NumPy trained on MNIST
 
 ## Setup & Configuration
 
-### 1. Environment Setup
+### Environment Setup
 
 #### macOS / Linux
 
@@ -22,7 +22,7 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-### 2. Download Dataset
+### Download Dataset
 
 Download the [MNIST as JPG dataset on Kaggle](https://www.kaggle.com/datasets/scolianni/mnistasjpg?select=testSet)
 
@@ -46,7 +46,7 @@ dataset/
 ```
 
 
-### 3. Configure  Network (Optional)
+### Configure Network (Optional)
 
 Before running, you can customize the network
 
@@ -84,7 +84,7 @@ net.train(X_train, Y_train, epochs=200, learning_rate=0.1, plot=True)
 
 ## Quick Start
 
-### 1. Train Network
+### Train Network
 
 Saves model to `models/network.npz`:
 
@@ -92,7 +92,7 @@ Saves model to `models/network.npz`:
 python src/trainer.py
 ```
 
-### 2. Test Prediction
+### Test Prediction
 
 Loads model from `models/network.npz` 
 
@@ -108,7 +108,7 @@ Locate `IMAGE_PATH = "dataset/test/img_1.jpg"`
 python src/tester.py
 ```
 
-### 3. Exit Virtual Environment
+### Exit Virtual Environment
 
 ```bash
 deactivate
